@@ -184,3 +184,58 @@ li{
 	border-radius: 5px;
 	color: white;
 }
+
+/*レスポンシブ(iphone7)*/
+@media screen and (max-width: 480px){
+.main-pic{
+	height: 200px;
+	background-image: url("jazz-res.jpg");
+}
+.text{
+	height: 200px;
+}
+
+.text p{
+	top: 30%;
+	font-size: 30px;
+}
+
+.picture{
+	left: 25%;
+}
+
+.text-content{
+	font-size: 15px;
+	margin: 0 10px;
+}
+
+.about-text{
+	left: 5%;
+
+}
+
+.skills{
+	height: 450px;
+}
+
+
+.icon i{
+	margin: 20px 30px;
+}
+
+.pms-pic{
+	width: 100%;
+	height: 215px;
+	background-image: url(pms-res.png);
+}
+
+.explain{
+	width: 480px;
+}
+
+.explain{
+	width: 100%;
+	font-size: 15px;
+
+}
+}
